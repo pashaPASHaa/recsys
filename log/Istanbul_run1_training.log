@@ -1,0 +1,277 @@
+Loaded successfully lbsn artefacts <== Istanbul_lbsn.hdf5
+Detected script configuration for synthetic preference estimation protocol:
+N=2783 [users] and J=272 [items] where the most popular item p=0.0586 and the most niche item p=0.0005
+
+HYPERPARAMETERS SEARCH
+
+recall=0.4081  params={name=POP}  |  best_recall=0.4081  best_params={name=POP}
+Search for pop DONE. recall=0.4081 params={name=POP}
+--------------------
+recall@10=0.4081 +/- 0.3123
+recall@20=0.5192 +/- 0.3214
+recall@30=0.5909 +/- 0.3161
+
+recall=0.3698  params={beta= 0.5000}  |  best_recall=0.3698  best_params={beta= 0.5000}
+recall=0.3824  params={beta= 0.5526}  |  best_recall=0.3824  best_params={beta= 0.5526}
+recall=0.3875  params={beta= 0.6053}  |  best_recall=0.3875  best_params={beta= 0.6053}
+recall=0.3958  params={beta= 0.6579}  |  best_recall=0.3958  best_params={beta= 0.6579}
+recall=0.4048  params={beta= 0.7105}  |  best_recall=0.4048  best_params={beta= 0.7105}
+recall=0.4077  params={beta= 0.7632}  |  best_recall=0.4077  best_params={beta= 0.7632}
+recall=0.4119  params={beta= 0.8158}  |  best_recall=0.4119  best_params={beta= 0.8158}
+recall=0.4124  params={beta= 0.8684}  |  best_recall=0.4124  best_params={beta= 0.8684}
+recall=0.4156  params={beta= 0.9211}  |  best_recall=0.4156  best_params={beta= 0.9211}
+recall=0.4217  params={beta= 0.9737}  |  best_recall=0.4217  best_params={beta= 0.9737}
+recall=0.4205  params={beta= 1.0263}  |  best_recall=0.4217  best_params={beta= 0.9737}
+recall=0.4215  params={beta= 1.0789}  |  best_recall=0.4217  best_params={beta= 0.9737}
+recall=0.4231  params={beta= 1.1316}  |  best_recall=0.4231  best_params={beta= 1.1316}
+recall=0.4244  params={beta= 1.1842}  |  best_recall=0.4244  best_params={beta= 1.1842}
+recall=0.4249  params={beta= 1.2368}  |  best_recall=0.4249  best_params={beta= 1.2368}
+recall=0.4256  params={beta= 1.2895}  |  best_recall=0.4256  best_params={beta= 1.2895}
+recall=0.4233  params={beta= 1.3421}  |  best_recall=0.4256  best_params={beta= 1.2895}
+recall=0.4230  params={beta= 1.3947}  |  best_recall=0.4256  best_params={beta= 1.2895}
+recall=0.4227  params={beta= 1.4474}  |  best_recall=0.4256  best_params={beta= 1.2895}
+recall=0.4230  params={beta= 1.5000}  |  best_recall=0.4256  best_params={beta= 1.2895}
+Search for vae DONE. recall=0.4256 params={beta= 1.2895}
+--------------------
+recall@10=0.4256 +/- 0.3128
+recall@20=0.5412 +/- 0.3209
+recall@30=0.6148 +/- 0.3126
+
+recall=0.1699  params={lambda_u= 0.0100 b= 0.0001 lambda_v= 0.0100}  |  best_recall=0.1699  best_params={lambda_u= 0.0100 b= 0.0001 lambda_v= 0.0100}
+recall=0.2011  params={lambda_u= 0.0100 b= 0.0003 lambda_v= 0.0100}  |  best_recall=0.2011  best_params={lambda_u= 0.0100 b= 0.0003 lambda_v= 0.0100}
+recall=0.2206  params={lambda_u= 0.0100 b= 0.0008 lambda_v= 0.0100}  |  best_recall=0.2206  best_params={lambda_u= 0.0100 b= 0.0008 lambda_v= 0.0100}
+recall=0.2051  params={lambda_u= 0.0100 b= 0.0022 lambda_v= 0.0100}  |  best_recall=0.2206  best_params={lambda_u= 0.0100 b= 0.0008 lambda_v= 0.0100}
+recall=0.1885  params={lambda_u= 0.0100 b= 0.0060 lambda_v= 0.0100}  |  best_recall=0.2206  best_params={lambda_u= 0.0100 b= 0.0008 lambda_v= 0.0100}
+recall=0.1846  params={lambda_u= 0.0100 b= 0.0167 lambda_v= 0.0100}  |  best_recall=0.2206  best_params={lambda_u= 0.0100 b= 0.0008 lambda_v= 0.0100}
+recall=0.1827  params={lambda_u= 0.0100 b= 0.0464 lambda_v= 0.0100}  |  best_recall=0.2206  best_params={lambda_u= 0.0100 b= 0.0008 lambda_v= 0.0100}
+recall=0.1464  params={lambda_u= 0.0100 b= 0.1292 lambda_v= 0.0100}  |  best_recall=0.2206  best_params={lambda_u= 0.0100 b= 0.0008 lambda_v= 0.0100}
+recall=0.1098  params={lambda_u= 0.0100 b= 0.3594 lambda_v= 0.0100}  |  best_recall=0.2206  best_params={lambda_u= 0.0100 b= 0.0008 lambda_v= 0.0100}
+recall=0.0949  params={lambda_u= 0.0100 b= 1.0000 lambda_v= 0.0100}  |  best_recall=0.2206  best_params={lambda_u= 0.0100 b= 0.0008 lambda_v= 0.0100}
+recall=0.2313  params={lambda_u= 0.0278 b= 0.0001 lambda_v= 0.0278}  |  best_recall=0.2313  best_params={lambda_u= 0.0278 b= 0.0001 lambda_v= 0.0278}
+recall=0.2481  params={lambda_u= 0.0278 b= 0.0003 lambda_v= 0.0278}  |  best_recall=0.2481  best_params={lambda_u= 0.0278 b= 0.0003 lambda_v= 0.0278}
+recall=0.2464  params={lambda_u= 0.0278 b= 0.0008 lambda_v= 0.0278}  |  best_recall=0.2481  best_params={lambda_u= 0.0278 b= 0.0003 lambda_v= 0.0278}
+recall=0.2210  params={lambda_u= 0.0278 b= 0.0022 lambda_v= 0.0278}  |  best_recall=0.2481  best_params={lambda_u= 0.0278 b= 0.0003 lambda_v= 0.0278}
+recall=0.1961  params={lambda_u= 0.0278 b= 0.0060 lambda_v= 0.0278}  |  best_recall=0.2481  best_params={lambda_u= 0.0278 b= 0.0003 lambda_v= 0.0278}
+recall=0.1882  params={lambda_u= 0.0278 b= 0.0167 lambda_v= 0.0278}  |  best_recall=0.2481  best_params={lambda_u= 0.0278 b= 0.0003 lambda_v= 0.0278}
+recall=0.1855  params={lambda_u= 0.0278 b= 0.0464 lambda_v= 0.0278}  |  best_recall=0.2481  best_params={lambda_u= 0.0278 b= 0.0003 lambda_v= 0.0278}
+recall=0.1475  params={lambda_u= 0.0278 b= 0.1292 lambda_v= 0.0278}  |  best_recall=0.2481  best_params={lambda_u= 0.0278 b= 0.0003 lambda_v= 0.0278}
+recall=0.1099  params={lambda_u= 0.0278 b= 0.3594 lambda_v= 0.0278}  |  best_recall=0.2481  best_params={lambda_u= 0.0278 b= 0.0003 lambda_v= 0.0278}
+recall=0.0951  params={lambda_u= 0.0278 b= 1.0000 lambda_v= 0.0278}  |  best_recall=0.2481  best_params={lambda_u= 0.0278 b= 0.0003 lambda_v= 0.0278}
+recall=0.2969  params={lambda_u= 0.0774 b= 0.0001 lambda_v= 0.0774}  |  best_recall=0.2969  best_params={lambda_u= 0.0774 b= 0.0001 lambda_v= 0.0774}
+recall=0.3087  params={lambda_u= 0.0774 b= 0.0003 lambda_v= 0.0774}  |  best_recall=0.3087  best_params={lambda_u= 0.0774 b= 0.0003 lambda_v= 0.0774}
+recall=0.2939  params={lambda_u= 0.0774 b= 0.0008 lambda_v= 0.0774}  |  best_recall=0.3087  best_params={lambda_u= 0.0774 b= 0.0003 lambda_v= 0.0774}
+recall=0.2574  params={lambda_u= 0.0774 b= 0.0022 lambda_v= 0.0774}  |  best_recall=0.3087  best_params={lambda_u= 0.0774 b= 0.0003 lambda_v= 0.0774}
+recall=0.2208  params={lambda_u= 0.0774 b= 0.0060 lambda_v= 0.0774}  |  best_recall=0.3087  best_params={lambda_u= 0.0774 b= 0.0003 lambda_v= 0.0774}
+recall=0.1985  params={lambda_u= 0.0774 b= 0.0167 lambda_v= 0.0774}  |  best_recall=0.3087  best_params={lambda_u= 0.0774 b= 0.0003 lambda_v= 0.0774}
+recall=0.1886  params={lambda_u= 0.0774 b= 0.0464 lambda_v= 0.0774}  |  best_recall=0.3087  best_params={lambda_u= 0.0774 b= 0.0003 lambda_v= 0.0774}
+recall=0.1519  params={lambda_u= 0.0774 b= 0.1292 lambda_v= 0.0774}  |  best_recall=0.3087  best_params={lambda_u= 0.0774 b= 0.0003 lambda_v= 0.0774}
+recall=0.1110  params={lambda_u= 0.0774 b= 0.3594 lambda_v= 0.0774}  |  best_recall=0.3087  best_params={lambda_u= 0.0774 b= 0.0003 lambda_v= 0.0774}
+recall=0.0962  params={lambda_u= 0.0774 b= 1.0000 lambda_v= 0.0774}  |  best_recall=0.3087  best_params={lambda_u= 0.0774 b= 0.0003 lambda_v= 0.0774}
+recall=0.3158  params={lambda_u= 0.2154 b= 0.0001 lambda_v= 0.2154}  |  best_recall=0.3158  best_params={lambda_u= 0.2154 b= 0.0001 lambda_v= 0.2154}
+recall=0.3353  params={lambda_u= 0.2154 b= 0.0003 lambda_v= 0.2154}  |  best_recall=0.3353  best_params={lambda_u= 0.2154 b= 0.0003 lambda_v= 0.2154}
+recall=0.3380  params={lambda_u= 0.2154 b= 0.0008 lambda_v= 0.2154}  |  best_recall=0.3380  best_params={lambda_u= 0.2154 b= 0.0008 lambda_v= 0.2154}
+recall=0.3088  params={lambda_u= 0.2154 b= 0.0022 lambda_v= 0.2154}  |  best_recall=0.3380  best_params={lambda_u= 0.2154 b= 0.0008 lambda_v= 0.2154}
+recall=0.2590  params={lambda_u= 0.2154 b= 0.0060 lambda_v= 0.2154}  |  best_recall=0.3380  best_params={lambda_u= 0.2154 b= 0.0008 lambda_v= 0.2154}
+recall=0.2191  params={lambda_u= 0.2154 b= 0.0167 lambda_v= 0.2154}  |  best_recall=0.3380  best_params={lambda_u= 0.2154 b= 0.0008 lambda_v= 0.2154}
+recall=0.1986  params={lambda_u= 0.2154 b= 0.0464 lambda_v= 0.2154}  |  best_recall=0.3380  best_params={lambda_u= 0.2154 b= 0.0008 lambda_v= 0.2154}
+recall=0.1553  params={lambda_u= 0.2154 b= 0.1292 lambda_v= 0.2154}  |  best_recall=0.3380  best_params={lambda_u= 0.2154 b= 0.0008 lambda_v= 0.2154}
+recall=0.1117  params={lambda_u= 0.2154 b= 0.3594 lambda_v= 0.2154}  |  best_recall=0.3380  best_params={lambda_u= 0.2154 b= 0.0008 lambda_v= 0.2154}
+recall=0.0959  params={lambda_u= 0.2154 b= 1.0000 lambda_v= 0.2154}  |  best_recall=0.3380  best_params={lambda_u= 0.2154 b= 0.0008 lambda_v= 0.2154}
+recall=0.3473  params={lambda_u= 0.5995 b= 0.0001 lambda_v= 0.5995}  |  best_recall=0.3473  best_params={lambda_u= 0.5995 b= 0.0001 lambda_v= 0.5995}
+recall=0.3538  params={lambda_u= 0.5995 b= 0.0003 lambda_v= 0.5995}  |  best_recall=0.3538  best_params={lambda_u= 0.5995 b= 0.0003 lambda_v= 0.5995}
+recall=0.3699  params={lambda_u= 0.5995 b= 0.0008 lambda_v= 0.5995}  |  best_recall=0.3699  best_params={lambda_u= 0.5995 b= 0.0008 lambda_v= 0.5995}
+recall=0.3761  params={lambda_u= 0.5995 b= 0.0022 lambda_v= 0.5995}  |  best_recall=0.3761  best_params={lambda_u= 0.5995 b= 0.0022 lambda_v= 0.5995}
+recall=0.3291  params={lambda_u= 0.5995 b= 0.0060 lambda_v= 0.5995}  |  best_recall=0.3761  best_params={lambda_u= 0.5995 b= 0.0022 lambda_v= 0.5995}
+recall=0.2695  params={lambda_u= 0.5995 b= 0.0167 lambda_v= 0.5995}  |  best_recall=0.3761  best_params={lambda_u= 0.5995 b= 0.0022 lambda_v= 0.5995}
+recall=0.2224  params={lambda_u= 0.5995 b= 0.0464 lambda_v= 0.5995}  |  best_recall=0.3761  best_params={lambda_u= 0.5995 b= 0.0022 lambda_v= 0.5995}
+recall=0.1645  params={lambda_u= 0.5995 b= 0.1292 lambda_v= 0.5995}  |  best_recall=0.3761  best_params={lambda_u= 0.5995 b= 0.0022 lambda_v= 0.5995}
+recall=0.1138  params={lambda_u= 0.5995 b= 0.3594 lambda_v= 0.5995}  |  best_recall=0.3761  best_params={lambda_u= 0.5995 b= 0.0022 lambda_v= 0.5995}
+recall=0.0953  params={lambda_u= 0.5995 b= 1.0000 lambda_v= 0.5995}  |  best_recall=0.3761  best_params={lambda_u= 0.5995 b= 0.0022 lambda_v= 0.5995}
+recall=0.4055  params={lambda_u= 1.6681 b= 0.0001 lambda_v= 1.6681}  |  best_recall=0.4055  best_params={lambda_u= 1.6681 b= 0.0001 lambda_v= 1.6681}
+recall=0.4045  params={lambda_u= 1.6681 b= 0.0003 lambda_v= 1.6681}  |  best_recall=0.4055  best_params={lambda_u= 1.6681 b= 0.0001 lambda_v= 1.6681}
+recall=0.4072  params={lambda_u= 1.6681 b= 0.0008 lambda_v= 1.6681}  |  best_recall=0.4072  best_params={lambda_u= 1.6681 b= 0.0008 lambda_v= 1.6681}
+recall=0.4146  params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}  |  best_recall=0.4146  best_params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}
+recall=0.4100  params={lambda_u= 1.6681 b= 0.0060 lambda_v= 1.6681}  |  best_recall=0.4146  best_params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}
+recall=0.3630  params={lambda_u= 1.6681 b= 0.0167 lambda_v= 1.6681}  |  best_recall=0.4146  best_params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}
+recall=0.2791  params={lambda_u= 1.6681 b= 0.0464 lambda_v= 1.6681}  |  best_recall=0.4146  best_params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}
+recall=0.2003  params={lambda_u= 1.6681 b= 0.1292 lambda_v= 1.6681}  |  best_recall=0.4146  best_params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}
+recall=0.1204  params={lambda_u= 1.6681 b= 0.3594 lambda_v= 1.6681}  |  best_recall=0.4146  best_params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}
+recall=0.0973  params={lambda_u= 1.6681 b= 1.0000 lambda_v= 1.6681}  |  best_recall=0.4146  best_params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}
+recall=0.4069  params={lambda_u= 4.6416 b= 0.0001 lambda_v= 4.6416}  |  best_recall=0.4146  best_params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}
+recall=0.4069  params={lambda_u= 4.6416 b= 0.0003 lambda_v= 4.6416}  |  best_recall=0.4146  best_params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}
+recall=0.4069  params={lambda_u= 4.6416 b= 0.0008 lambda_v= 4.6416}  |  best_recall=0.4146  best_params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}
+recall=0.4069  params={lambda_u= 4.6416 b= 0.0022 lambda_v= 4.6416}  |  best_recall=0.4146  best_params={lambda_u= 1.6681 b= 0.0022 lambda_v= 1.6681}
+recall=0.4163  params={lambda_u= 4.6416 b= 0.0060 lambda_v= 4.6416}  |  best_recall=0.4163  best_params={lambda_u= 4.6416 b= 0.0060 lambda_v= 4.6416}
+recall=0.4285  params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4132  params={lambda_u= 4.6416 b= 0.0464 lambda_v= 4.6416}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.3249  params={lambda_u= 4.6416 b= 0.1292 lambda_v= 4.6416}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.2066  params={lambda_u= 4.6416 b= 0.3594 lambda_v= 4.6416}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.1660  params={lambda_u= 4.6416 b= 1.0000 lambda_v= 4.6416}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4081  params={lambda_u=12.9155 b= 0.0001 lambda_v=12.9155}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4081  params={lambda_u=12.9155 b= 0.0003 lambda_v=12.9155}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4081  params={lambda_u=12.9155 b= 0.0008 lambda_v=12.9155}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4081  params={lambda_u=12.9155 b= 0.0022 lambda_v=12.9155}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4081  params={lambda_u=12.9155 b= 0.0060 lambda_v=12.9155}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4081  params={lambda_u=12.9155 b= 0.0167 lambda_v=12.9155}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4081  params={lambda_u=12.9155 b= 0.0464 lambda_v=12.9155}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4190  params={lambda_u=12.9155 b= 0.1292 lambda_v=12.9155}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4154  params={lambda_u=12.9155 b= 0.3594 lambda_v=12.9155}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4094  params={lambda_u=12.9155 b= 1.0000 lambda_v=12.9155}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4066  params={lambda_u=35.9381 b= 0.0001 lambda_v=35.9381}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4066  params={lambda_u=35.9381 b= 0.0003 lambda_v=35.9381}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4066  params={lambda_u=35.9381 b= 0.0008 lambda_v=35.9381}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4066  params={lambda_u=35.9381 b= 0.0022 lambda_v=35.9381}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4066  params={lambda_u=35.9381 b= 0.0060 lambda_v=35.9381}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4066  params={lambda_u=35.9381 b= 0.0167 lambda_v=35.9381}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4066  params={lambda_u=35.9381 b= 0.0464 lambda_v=35.9381}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4066  params={lambda_u=35.9381 b= 0.1292 lambda_v=35.9381}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4068  params={lambda_u=35.9381 b= 0.3594 lambda_v=35.9381}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.4068  params={lambda_u=35.9381 b= 1.0000 lambda_v=35.9381}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.0691  params={lambda_u=100.0000 b= 0.0001 lambda_v=100.0000}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.0619  params={lambda_u=100.0000 b= 0.0003 lambda_v=100.0000}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.0488  params={lambda_u=100.0000 b= 0.0008 lambda_v=100.0000}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.0751  params={lambda_u=100.0000 b= 0.0022 lambda_v=100.0000}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.0422  params={lambda_u=100.0000 b= 0.0060 lambda_v=100.0000}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.0656  params={lambda_u=100.0000 b= 0.0167 lambda_v=100.0000}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.0445  params={lambda_u=100.0000 b= 0.0464 lambda_v=100.0000}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.0531  params={lambda_u=100.0000 b= 0.1292 lambda_v=100.0000}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.0513  params={lambda_u=100.0000 b= 0.3594 lambda_v=100.0000}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+recall=0.0578  params={lambda_u=100.0000 b= 1.0000 lambda_v=100.0000}  |  best_recall=0.4285  best_params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+Search for wmf DONE. recall=0.4285 params={lambda_u= 4.6416 b= 0.0167 lambda_v= 4.6416}
+--------------------
+recall@10=0.4285 +/- 0.3142
+recall@20=0.5490 +/- 0.3179
+recall@30=0.6211 +/- 0.3108
+
+recall=0.2170  params={lambda_reg= 0.0001}  |  best_recall=0.2170  best_params={lambda_reg= 0.0001}
+recall=0.2190  params={lambda_reg= 0.0002}  |  best_recall=0.2190  best_params={lambda_reg= 0.0002}
+recall=0.2238  params={lambda_reg= 0.0003}  |  best_recall=0.2238  best_params={lambda_reg= 0.0003}
+recall=0.2313  params={lambda_reg= 0.0004}  |  best_recall=0.2313  best_params={lambda_reg= 0.0004}
+recall=0.2445  params={lambda_reg= 0.0007}  |  best_recall=0.2445  best_params={lambda_reg= 0.0007}
+recall=0.2589  params={lambda_reg= 0.0011}  |  best_recall=0.2589  best_params={lambda_reg= 0.0011}
+recall=0.2808  params={lambda_reg= 0.0018}  |  best_recall=0.2808  best_params={lambda_reg= 0.0018}
+recall=0.3046  params={lambda_reg= 0.0030}  |  best_recall=0.3046  best_params={lambda_reg= 0.0030}
+recall=0.3309  params={lambda_reg= 0.0048}  |  best_recall=0.3309  best_params={lambda_reg= 0.0048}
+recall=0.3520  params={lambda_reg= 0.0078}  |  best_recall=0.3520  best_params={lambda_reg= 0.0078}
+recall=0.3761  params={lambda_reg= 0.0127}  |  best_recall=0.3761  best_params={lambda_reg= 0.0127}
+recall=0.3929  params={lambda_reg= 0.0207}  |  best_recall=0.3929  best_params={lambda_reg= 0.0207}
+recall=0.4060  params={lambda_reg= 0.0336}  |  best_recall=0.4060  best_params={lambda_reg= 0.0336}
+recall=0.4104  params={lambda_reg= 0.0546}  |  best_recall=0.4104  best_params={lambda_reg= 0.0546}
+recall=0.4140  params={lambda_reg= 0.0886}  |  best_recall=0.4140  best_params={lambda_reg= 0.0886}
+recall=0.4046  params={lambda_reg= 0.1438}  |  best_recall=0.4140  best_params={lambda_reg= 0.0886}
+recall=0.4041  params={lambda_reg= 0.2336}  |  best_recall=0.4140  best_params={lambda_reg= 0.0886}
+recall=0.4031  params={lambda_reg= 0.3793}  |  best_recall=0.4140  best_params={lambda_reg= 0.0886}
+recall=0.4056  params={lambda_reg= 0.6158}  |  best_recall=0.4140  best_params={lambda_reg= 0.0886}
+recall=0.3144  params={lambda_reg= 1.0000}  |  best_recall=0.4140  best_params={lambda_reg= 0.0886}
+Search for bpr DONE. recall=0.4140 params={lambda_reg= 0.0886}
+--------------------
+recall@10=0.4140 +/- 0.3159
+recall@20=0.5321 +/- 0.3229
+recall@30=0.6065 +/- 0.3183
+
+recall=0.3231  params={lambda_reg= 0.0001}  |  best_recall=0.3231  best_params={lambda_reg= 0.0001}
+recall=0.3241  params={lambda_reg= 0.0002}  |  best_recall=0.3241  best_params={lambda_reg= 0.0002}
+recall=0.3246  params={lambda_reg= 0.0003}  |  best_recall=0.3246  best_params={lambda_reg= 0.0003}
+recall=0.3277  params={lambda_reg= 0.0004}  |  best_recall=0.3277  best_params={lambda_reg= 0.0004}
+recall=0.3292  params={lambda_reg= 0.0007}  |  best_recall=0.3292  best_params={lambda_reg= 0.0007}
+recall=0.3324  params={lambda_reg= 0.0011}  |  best_recall=0.3324  best_params={lambda_reg= 0.0011}
+recall=0.3374  params={lambda_reg= 0.0018}  |  best_recall=0.3374  best_params={lambda_reg= 0.0018}
+recall=0.3463  params={lambda_reg= 0.0030}  |  best_recall=0.3463  best_params={lambda_reg= 0.0030}
+recall=0.3576  params={lambda_reg= 0.0048}  |  best_recall=0.3576  best_params={lambda_reg= 0.0048}
+recall=0.3730  params={lambda_reg= 0.0078}  |  best_recall=0.3730  best_params={lambda_reg= 0.0078}
+recall=0.3836  params={lambda_reg= 0.0127}  |  best_recall=0.3836  best_params={lambda_reg= 0.0127}
+recall=0.3959  params={lambda_reg= 0.0207}  |  best_recall=0.3959  best_params={lambda_reg= 0.0207}
+recall=0.4009  params={lambda_reg= 0.0336}  |  best_recall=0.4009  best_params={lambda_reg= 0.0336}
+recall=0.4065  params={lambda_reg= 0.0546}  |  best_recall=0.4065  best_params={lambda_reg= 0.0546}
+recall=0.4032  params={lambda_reg= 0.0886}  |  best_recall=0.4065  best_params={lambda_reg= 0.0546}
+recall=0.3912  params={lambda_reg= 0.1438}  |  best_recall=0.4065  best_params={lambda_reg= 0.0546}
+recall=0.3854  params={lambda_reg= 0.2336}  |  best_recall=0.4065  best_params={lambda_reg= 0.0546}
+recall=0.3782  params={lambda_reg= 0.3793}  |  best_recall=0.4065  best_params={lambda_reg= 0.0546}
+recall=0.3751  params={lambda_reg= 0.6158}  |  best_recall=0.4065  best_params={lambda_reg= 0.0546}
+recall=0.3729  params={lambda_reg= 1.0000}  |  best_recall=0.4065  best_params={lambda_reg= 0.0546}
+Search for ngcf DONE. recall=0.4065 params={lambda_reg= 0.0546}
+--------------------
+recall@10=0.4065 +/- 0.3173
+recall@20=0.5236 +/- 0.3234
+recall@30=0.5975 +/- 0.3178
+
+recall=0.4250  params={lamb=100.0000}  |  best_recall=0.4250  best_params={lamb=100.0000}
+recall=0.4263  params={lamb=111.5240}  |  best_recall=0.4263  best_params={lamb=111.5240}
+recall=0.4281  params={lamb=124.3761}  |  best_recall=0.4281  best_params={lamb=124.3761}
+recall=0.4288  params={lamb=138.7092}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4284  params={lamb=154.6941}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4268  params={lamb=172.5211}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4273  params={lamb=192.4024}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4268  params={lamb=214.5749}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4265  params={lamb=239.3026}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4277  params={lamb=266.8799}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4269  params={lamb=297.6351}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4266  params={lamb=331.9347}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4252  params={lamb=370.1869}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4252  params={lamb=412.8473}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4253  params={lamb=460.4239}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4248  params={lamb=513.4833}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4246  params={lamb=572.6572}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4254  params={lamb=638.6504}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4241  params={lamb=712.2486}  |  best_recall=0.4288  best_params={lamb=138.7092}
+recall=0.4240  params={lamb=794.3282}  |  best_recall=0.4288  best_params={lamb=138.7092}
+Search for ease DONE. recall=0.4288 params={lamb=138.7092}
+--------------------
+recall@10=0.4288 +/- 0.3153
+recall@20=0.5344 +/- 0.3154
+recall@30=0.6073 +/- 0.3090
+
+
+RETRAINING ORACLE (TRUE) MODELS WITH THE OPTIMAL HYPERPARAMETERS
+
+Retraining true preferences for pop INIT.
+Retraining true preferences for pop DONE.
+recall@10=0.3800 +/- 0.2007
+recall@20=0.5011 +/- 0.2130
+recall@30=0.5784 +/- 0.2090
+
+Retraining true preferences for vae INIT.
+Retraining true preferences for vae DONE.
+recall@10=0.4354 +/- 0.1948
+recall@20=0.5970 +/- 0.1965
+recall@30=0.6950 +/- 0.1866
+
+Retraining true preferences for wmf INIT.
+Retraining true preferences for wmf DONE.
+recall@10=0.4457 +/- 0.1946
+recall@20=0.6378 +/- 0.1928
+recall@30=0.7418 +/- 0.1771
+
+Retraining true preferences for bpr INIT.
+Retraining true preferences for bpr DONE.
+recall@10=0.4242 +/- 0.1866
+recall@20=0.5841 +/- 0.1844
+recall@30=0.6832 +/- 0.1713
+
+Retraining true preferences for ngcf INIT.
+Retraining true preferences for ngcf DONE.
+recall@10=0.5026 +/- 0.1795
+recall@20=0.7224 +/- 0.1659
+recall@30=0.8368 +/- 0.1378
+
+Retraining true preferences for ease INIT.
+Retraining true preferences for ease DONE.
+recall@10=0.4191 +/- 0.1944
+recall@20=0.6046 +/- 0.1840
+recall@30=0.7219 +/- 0.1688
+
+
+ESTIMATING PARTIAL UTILITY (BASED ON K GATHERED CHOICES)
+
+Fit 2-items DONE.
+Fit 3-items DONE.
+Fit 4-items DONE.
+Processing data storage with key [y    ]... DONE.
+Processing data storage with key [pop  ]... DONE.
+Processing data storage with key [vae  ]... DONE.
+Processing data storage with key [wmf  ]... DONE.
+Processing data storage with key [bpr  ]... DONE.
+Processing data storage with key [ngcf ]... DONE.
+Processing data storage with key [ease ]... DONE.
+Dumped successfully reco artefacts ==> Istanbul_util.hdf5
+DONE!

@@ -1,0 +1,568 @@
+Detected script configuration for synthetic awareness set estimation protocol:
+util_artefacts_file=out/Istanbul_util.hdf5 aset_artefacts_file=out/Istanbul_aset.hdf5 seed=2024 
+Processing data storage with key [bpr  ]... DONE.
+Processing data storage with key [ease ]... DONE.
+Processing data storage with key [ngcf ]... DONE.
+Processing data storage with key [pop  ]... DONE.
+Processing data storage with key [vae  ]... DONE.
+Processing data storage with key [wmf  ]... DONE.
+Processing data storage with key [y    ]... DONE.
+Loaded successfully reco artefacts <== Istanbul_util.hdf5
+
+Set recommendation key=bpr as a ground truth of [un]biased preferences
+k_pop=4  k_pop_delta=4
+-23.409029934763115
+-17.746230805401208
+-17.148046255036036
+-17.06918358398696
+-17.0533717838524
+-17.048910748412055
+-17.04733661518243
+-17.046693586304716
+-17.04641922194896
+-17.04628357463404
+Estimated over a population of 2783 users KL: QP_loss=0.349288 PQ_loss=0.125337 chi2_loss=0.189142
+Recall|A=0.7442 sd=0.1300  
+Recall|J=0.3444 sd=0.1711  
+[0.         1.16800879 0.         ... 0.78023707 0.         0.24270899]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [ 8.  9. 10. 12. 15.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   1.   5. 263.]
+
+k_pop=8  k_pop_delta=4
+-24.683243983731177
+-19.24741237573348
+-18.729000254205612
+-18.66964327542179
+-18.659735151049265
+-18.657437426293004
+-18.656770872956262
+-18.65654125833581
+Estimated over a population of 2783 users KL: QP_loss=0.790088 PQ_loss=0.239135 chi2_loss=0.373468
+Recall|A=0.6246 sd=0.1537  
+Recall|J=0.3444 sd=0.1711  
+[0.45275486 2.32513747 0.         ... 1.29259041 0.22939705 0.30555108]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [11. 12. 13. 15. 18.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   2. 259.]
+
+k_pop=12  k_pop_delta=4
+-25.626977204934136
+-20.3816574200503
+-19.921101841451854
+-19.872379455976557
+-19.86469590832759
+-19.863013318976765
+-19.862546367328356
+-19.86239808075167
+Estimated over a population of 2783 users KL: QP_loss=1.056767 PQ_loss=0.325998 chi2_loss=0.526354
+Recall|A=0.5526 sd=0.1658  
+Recall|J=0.3444 sd=0.1711  
+[1.116044   2.48656109 0.1182914  ... 1.70135768 0.         0.        ]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [13. 15. 16. 18. 21.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   1. 255.]
+
+k_pop=16  k_pop_delta=4
+-26.352041127547643
+-21.287017397999122
+-20.863796714814583
+-20.821390541334356
+-20.815097181578615
+-20.81379222440053
+-20.813449738903333
+-20.8133438047779
+Estimated over a population of 2783 users KL: QP_loss=1.350445 PQ_loss=0.395335 chi2_loss=0.657312
+Recall|A=0.5040 sd=0.1712  
+Recall|J=0.3444 sd=0.1711  
+[1.12604682 2.87408578 0.03354415 ... 1.41591419 0.22545473 0.17549899]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [16. 18. 19. 21. 24.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   1. 252.]
+
+k_pop=20  k_pop_delta=4
+-26.91001459164473
+-22.021174324614584
+-21.628710968290253
+-21.59128064212039
+-21.585971872210393
+-21.584917692050954
+-21.58465193859507
+-21.584572204268348
+Estimated over a population of 2783 users KL: QP_loss=1.513456 PQ_loss=0.446031 chi2_loss=0.755797
+Recall|A=0.4718 sd=0.1734  
+Recall|J=0.3444 sd=0.1711  
+[1.21857003 3.17549436 0.67445795 ... 1.65757381 0.01767424 0.20418155]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [18. 21. 22. 24. 27.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   1. 248.]
+
+
+Set recommendation key=ease as a ground truth of [un]biased preferences
+k_pop=4  k_pop_delta=4
+-31.621995930495288
+-17.33592681174797
+-17.161237637611144
+-17.135770699798332
+-17.127831427331653
+-17.12460562136728
+-17.12305221008117
+-17.122158727232712
+-17.121617097865318
+-17.121296064683037
+-17.121101206840585
+Estimated over a population of 2783 users KL: QP_loss=0.092265 PQ_loss=0.070330 chi2_loss=0.120057
+Recall|A=0.7734 sd=0.1357  
+Recall|J=0.3262 sd=0.1846  
+[1.09759653 0.19436589 0.34175182 ... 0.96791162 1.25428845 0.93147736]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [ 8.  9. 10. 12. 15.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   2.  19. 263.]
+
+k_pop=8  k_pop_delta=4
+-33.96653468781238
+-18.95396899725709
+-18.832337806454355
+-18.817919626282446
+-18.814012782391096
+-18.812530867891976
+-18.81181863245576
+-18.811429423151957
+-18.811192462759713
+Estimated over a population of 2783 users KL: QP_loss=0.323212 PQ_loss=0.168076 chi2_loss=0.281326
+Recall|A=0.6508 sd=0.1607  
+Recall|J=0.3262 sd=0.1846  
+[1.15418873 1.29198857 0.         ... 0.56267045 0.02083628 1.62443348]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [11. 12. 13. 15. 18.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   1.   5. 260.]
+
+k_pop=12  k_pop_delta=4
+-35.652023859779476
+-20.185258650215214
+-20.090914791788414
+-20.081430067245268
+-20.07886781319613
+-20.077949498645605
+-20.077530454653672
+Estimated over a population of 2783 users KL: QP_loss=0.649020 PQ_loss=0.257955 chi2_loss=0.428036
+Recall|A=0.5726 sd=0.1735  
+Recall|J=0.3262 sd=0.1846  
+[1.21448404 1.67203133 0.         ... 1.40740874 0.39057739 0.5559523 ]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [13. 15. 16. 18. 21.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   1.   3. 257.]
+
+k_pop=16  k_pop_delta=4
+-36.73495309512378
+-21.161598166258134
+-21.085419148657394
+-21.078911781779286
+-21.0773265946576
+-21.076759305305206
+Estimated over a population of 2783 users KL: QP_loss=0.918456 PQ_loss=0.328244 chi2_loss=0.548786
+Recall|A=0.5206 sd=0.1792  
+Recall|J=0.3262 sd=0.1846  
+[1.73284278 1.96094544 0.         ... 1.64895767 0.41733678 0.9456165 ]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [16. 18. 19. 21. 24.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   1.   2. 254.]
+
+k_pop=20  k_pop_delta=4
+-37.503663610966136
+-21.96096462197851
+-21.895826789526993
+-21.890654717363475
+-21.88937348959456
+-21.88888827226528
+Estimated over a population of 2783 users KL: QP_loss=1.175043 PQ_loss=0.382796 chi2_loss=0.643452
+Recall|A=0.4823 sd=0.1844  
+Recall|J=0.3262 sd=0.1846  
+[1.83316237 2.22087819 0.         ... 1.94015161 0.         1.2905277 ]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [18. 21. 22. 24. 27.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   2. 251.]
+
+
+Set recommendation key=ngcf as a ground truth of [un]biased preferences
+k_pop=4  k_pop_delta=4
+-20.240332372704728
+-17.454237849763622
+-16.925707925626742
+-16.809262621043622
+-16.777500455578355
+-16.76683660206892
+-16.762730435369985
+-16.760956776960487
+-16.760094325736716
+-16.759644570745092
+-16.759383851953654
+-16.759222091376255
+-16.759117427101366
+Estimated over a population of 2783 users KL: QP_loss=0.145728 PQ_loss=0.077589 chi2_loss=0.126781
+Recall|A=0.8019 sd=0.1227  
+Recall|J=0.3981 sd=0.1651  
+[1.7095242  1.95216258 1.36193502 ... 1.97144144 0.         0.        ]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [ 8.  9. 10. 12. 15.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   1. 261.]
+
+k_pop=8  k_pop_delta=4
+-21.198372118833703
+-18.644489088323798
+-18.227624025463868
+-18.14854038169726
+-18.129767838968032
+-18.12434044515384
+-18.122497077713888
+-18.12178923680129
+-18.121483907466235
+-18.121339920173888
+-18.121266553499368
+Estimated over a population of 2783 users KL: QP_loss=0.338781 PQ_loss=0.154867 chi2_loss=0.258490
+Recall|A=0.7006 sd=0.1454  
+Recall|J=0.3981 sd=0.1651  
+[1.79834941 4.05697274 1.00139018 ... 2.15236653 1.09248845 0.7488567 ]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [11. 12. 13. 15. 18.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[0. 0. 0. 1. 4.]
+
+k_pop=12  k_pop_delta=4
+-21.942055154443334
+-19.559237513019152
+-19.207849938936633
+-19.14714490801159
+-19.133860265396542
+-19.130337154395143
+-19.129243571798753
+-19.12885796390698
+-19.128707308965577
+-19.12864318809672
+Estimated over a population of 2783 users KL: QP_loss=0.483439 PQ_loss=0.215345 chi2_loss=0.368702
+Recall|A=0.6340 sd=0.1551  
+Recall|J=0.3981 sd=0.1651  
+[2.57087356 4.70667112 0.4988645  ... 2.45409062 1.43501776 1.65577871]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [13. 15. 16. 18. 21.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[0. 0. 0. 1. 3.]
+
+k_pop=16  k_pop_delta=4
+-22.522851602574942
+-20.28480913029749
+-19.980324251841353
+-19.930968063664547
+-19.920688161332595
+-19.91809241256252
+-19.917330018133285
+-19.917075977132093
+-19.916981782786287
+Estimated over a population of 2783 users KL: QP_loss=0.613576 PQ_loss=0.265628 chi2_loss=0.463700
+Recall|A=0.5889 sd=0.1599  
+Recall|J=0.3981 sd=0.1651  
+[2.83097149 5.01031701 0.76099425 ... 2.79273813 1.8578127  1.53420174]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [16. 18. 19. 21. 24.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[0. 0. 0. 1. 3.]
+
+k_pop=20  k_pop_delta=4
+-23.030323704032753
+-20.904867854820456
+-20.631946352326985
+-20.589769335023647
+-20.58131818215884
+-20.579250251941303
+-20.578660785971763
+-20.57847013543992
+-20.57840184648879
+Estimated over a population of 2783 users KL: QP_loss=0.733258 PQ_loss=0.308083 chi2_loss=0.545988
+Recall|A=0.5538 sd=0.1639  
+Recall|J=0.3981 sd=0.1651  
+[3.05822004 4.47359483 0.96014363 ... 3.09403579 2.50798545 1.53420176]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [18. 21. 22. 24. 27.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[0. 0. 0. 1. 2.]
+
+
+Set recommendation key=pop as a ground truth of [un]biased preferences
+k_pop=4  k_pop_delta=4
+-37.110409290038646
+-17.29968041366576
+-17.22639240166733
+-17.220831927769726
+-17.218783883195442
+-17.217691471438048
+Estimated over a population of 2783 users KL: QP_loss=0.764532 PQ_loss=0.168984 chi2_loss=0.235985
+Recall|A=0.6971 sd=0.1422  
+Recall|J=0.3075 sd=0.1804  
+[0.         0.         0.62118572 ... 0.37007565 0.         0.        ]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [ 8.  9. 10. 12. 15.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   2. 261. 263.]
+
+k_pop=8  k_pop_delta=4
+-39.27935027189167
+-19.006917586059128
+-18.960426550412212
+-18.958209535717348
+Estimated over a population of 2783 users KL: QP_loss=1.615485 PQ_loss=0.328926 chi2_loss=0.479512
+Recall|A=0.5614 sd=0.1750  
+Recall|J=0.3075 sd=0.1804  
+[0.         0.73068203 0.18661233 ... 0.23838052 0.         0.        ]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [11. 12. 13. 15. 18.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   1. 257. 260.]
+
+k_pop=12  k_pop_delta=4
+-40.61720858766124
+-20.27914183862872
+-20.243972379537674
+-20.242864136041234
+Estimated over a population of 2783 users KL: QP_loss=2.304555 PQ_loss=0.444749 chi2_loss=0.674601
+Recall|A=0.4866 sd=0.1845  
+Recall|J=0.3075 sd=0.1804  
+[0.         1.04838162 0.45691444 ... 0.43521603 0.         0.        ]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [13. 15. 16. 18. 21.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   1. 253. 257.]
+
+k_pop=16  k_pop_delta=4
+-41.49063116531336
+-21.294257227265664
+-21.265458358791015
+Estimated over a population of 2783 users KL: QP_loss=2.725362 PQ_loss=0.530939 chi2_loss=0.831660
+Recall|A=0.4415 sd=0.1884  
+Recall|J=0.3075 sd=0.1804  
+[0.         1.38501764 0.58541385 ... 0.60681587 0.         0.        ]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [16. 18. 19. 21. 24.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0. 249. 254.]
+
+k_pop=20  k_pop_delta=4
+-42.152670706776696
+-22.131888860785626
+-22.107739350930608
+Estimated over a population of 2783 users KL: QP_loss=3.206374 PQ_loss=0.596713 chi2_loss=0.959949
+Recall|A=0.4107 sd=0.1894  
+Recall|J=0.3075 sd=0.1804  
+[0.17452937 1.5131584  0.77537182 ... 0.93470282 0.         0.        ]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [18. 21. 22. 24. 27.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0. 246. 251.]
+
+
+Set recommendation key=vae as a ground truth of [un]biased preferences
+k_pop=4  k_pop_delta=4
+-35.407088560702945
+-17.2408056133046
+-17.144991367832706
+-17.13780819678195
+-17.13601214715275
+-17.13534322661304
+Estimated over a population of 2783 users KL: QP_loss=0.297103 PQ_loss=0.113552 chi2_loss=0.173774
+Recall|A=0.7504 sd=0.1375  
+Recall|J=0.3559 sd=0.1797  
+[0.         1.29484676 0.         ... 0.40452504 0.         0.41759221]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [ 8.  9. 10. 12. 15.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   5. 263.]
+
+k_pop=8  k_pop_delta=4
+-36.98286340843238
+-18.88295875750248
+-18.81739000932725
+-18.8139051254815
+-18.813261449009257
+Estimated over a population of 2783 users KL: QP_loss=0.792612 PQ_loss=0.234508 chi2_loss=0.367522
+Recall|A=0.6300 sd=0.1631  
+Recall|J=0.3559 sd=0.1797  
+[0.         1.86944224 0.         ... 0.48326051 0.         0.96556451]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [11. 12. 13. 15. 18.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   2. 260.]
+
+k_pop=12  k_pop_delta=4
+-37.978758438877975
+-20.08716862083676
+-20.039381199026952
+-20.037415345564114
+Estimated over a population of 2783 users KL: QP_loss=1.239377 PQ_loss=0.327578 chi2_loss=0.528347
+Recall|A=0.5560 sd=0.1755  
+Recall|J=0.3559 sd=0.1797  
+[0.27843445 2.19505595 0.         ... 0.77961483 0.         1.36070595]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [13. 15. 16. 18. 21.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   1. 256.]
+
+k_pop=16  k_pop_delta=4
+-38.7256986648021
+-21.054188524439557
+-21.015670554492278
+-21.01444142494281
+Estimated over a population of 2783 users KL: QP_loss=1.562908 PQ_loss=0.406030 chi2_loss=0.670928
+Recall|A=0.5059 sd=0.1797  
+Recall|J=0.3559 sd=0.1797  
+[0.35401029 2.4868165  0.24465458 ... 0.9997716  0.         0.87101885]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [16. 18. 19. 21. 24.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   1. 253.]
+
+k_pop=20  k_pop_delta=4
+-39.21205719446622
+-21.833302995968804
+-21.801475282005462
+-21.800673924271383
+Estimated over a population of 2783 users KL: QP_loss=1.855434 PQ_loss=0.464713 chi2_loss=0.781669
+Recall|A=0.4733 sd=0.1816  
+Recall|J=0.3559 sd=0.1797  
+[0.53821136 2.55666295 0.41179504 ... 1.14672937 0.         1.06141006]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [18. 21. 22. 24. 27.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   1. 250.]
+
+
+Set recommendation key=wmf as a ground truth of [un]biased preferences
+k_pop=4  k_pop_delta=4
+-24.15140933267129
+-17.563887570640095
+-17.05190552009781
+-16.9973182610399
+-16.987229511570423
+-16.984564145036533
+-16.983654445679605
+-16.983291036228277
+-16.98312739615845
+Estimated over a population of 2783 users KL: QP_loss=0.493202 PQ_loss=0.133370 chi2_loss=0.193811
+Recall|A=0.7612 sd=0.1321  
+Recall|J=0.3557 sd=0.1726  
+[2.17642177 1.78777804 0.89934887 ... 1.52311366 0.         0.79869949]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [ 8.  9. 10. 12. 15.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   1.   3. 263.]
+
+k_pop=8  k_pop_delta=4
+-25.389747652153392
+-19.024005540341157
+-18.59930242665302
+-18.56084155541273
+-18.554672635543167
+-18.553237991577955
+-18.55281452433806
+-18.552663249896437
+Estimated over a population of 2783 users KL: QP_loss=1.084010 PQ_loss=0.259853 chi2_loss=0.392750
+Recall|A=0.6439 sd=0.1596  
+Recall|J=0.3557 sd=0.1726  
+[2.56973002 2.09059976 0.9411865  ... 0.67278468 0.43542042 0.88253801]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [11. 12. 13. 15. 18.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   2. 259.]
+
+k_pop=12  k_pop_delta=4
+-26.24002643496204
+-20.120837782829586
+-19.749333098295484
+-19.71945973317524
+-19.715234734890153
+-19.714353054941242
+-19.714109855319556
+Estimated over a population of 2783 users KL: QP_loss=1.497149 PQ_loss=0.352971 chi2_loss=0.550264
+Recall|A=0.5717 sd=0.1706  
+Recall|J=0.3557 sd=0.1726  
+[1.87150402 2.2986247  1.03639526 ... 1.18347477 0.04601659 0.62560092]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [13. 15. 17. 18. 21.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   1. 255.]
+
+k_pop=16  k_pop_delta=4
+-26.93278676085163
+-20.989939798348516
+-20.653078796903568
+-20.6281604265647
+-20.624947019512682
+-20.624321803931416
+-20.624157926613176
+Estimated over a population of 2783 users KL: QP_loss=1.829050 PQ_loss=0.425106 chi2_loss=0.685224
+Recall|A=0.5206 sd=0.1776  
+Recall|J=0.3557 sd=0.1726  
+[2.17290189 2.77146699 1.02284838 ... 1.32924318 0.         0.79646448]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [16. 18. 19. 21. 24.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[  0.   0.   0.   1. 251.]
+
+k_pop=20  k_pop_delta=4
+-27.48642942790354
+-21.708288348607468
+-21.398832757471908
+-21.377033102955547
+-21.37435777344106
+-21.37385483824924
+-21.373726122019967
+Estimated over a population of 2783 users KL: QP_loss=2.078047 PQ_loss=0.486742 chi2_loss=0.803953
+Recall|A=0.4832 sd=0.1797  
+Recall|J=0.3557 sd=0.1726  
+[2.58135899 2.94183239 1.65879349 ... 1.26965532 0.78212679 0.59021461]
+quantiles of interest=[0.05, 0.25, 0.5, 0.75, 0.95]
+A: [18. 21. 22. 24. 27.]
+y: [ 5.  5.  7.  8. 12.]
+S[probability of consideration > p_choice max]:
+[ 0.   0.   0.   1.  12.6]
+
+Dumped successfully aset artefacts ==> Istanbul_aset.hdf5
+DONE!
